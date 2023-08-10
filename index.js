@@ -29,7 +29,7 @@ app.post("/new-message", function(req, res) {
 			"https://api.telegram.org/bot6666745406:AAG8uz6G13xMTOh_BY7VdNcY0LoUNSfC_AA/sendMessage",
 			{
 				chat_id: message.chat.id,
-				text: "Polo!!",
+				text: "Yolo!!",
 			}
 		)
 		.then((response) => {
